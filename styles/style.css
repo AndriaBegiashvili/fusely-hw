@@ -11,7 +11,7 @@ img{
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   
 }
 
@@ -323,7 +323,9 @@ copyright{
     .container {
         width: 90%;
     }
-
+    .row{
+        flex-wrap: wrap;
+    }
     .row_card{
     display: flex;  
     flex-direction: column;
@@ -482,7 +484,7 @@ copyright{
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 3rem;
+line-height: 56px;
 text-align: center;
 }
 
