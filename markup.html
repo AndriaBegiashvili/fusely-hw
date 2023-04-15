@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="container">
       <div class="row space-between align-center">
         <div>
-          <img src="./src/img/Logo.svg" />
+          <img src="img/Logo.svg" />
         </div>
         <nav>
-          <ul class="nav_link">
+          <ul class="nav_link pc_h1">
             <li>Home</li>
             <li>Features</li>
             <li>pricing</li>
@@ -22,9 +22,12 @@
             <li>Contact</li>
           </ul>
         </nav>
-        <div class="btn_container">
+        <div class="btn_container pc_h1">
           <button class="secondary_btn">Log In</button>
           <button class="primary_btn">Get Started</button>
+        </div>
+        <div class="ipad_h1">
+          <img src="img/Menu Button.svg" />
         </div>
       </div>
     </header>
@@ -32,20 +35,30 @@
       <div class="container">
         <div class="row space-between">
           <div class="banner_content_wrapper">
-            <h1>
+            <h1 class="pc_h1">
               Let’s get <br />
               fusely <br />
               together
             </h1>
-            <p>
+            <h1 class="ipad_h1">
+              Let’s get
+              fusely<br />
+              together
+            </h1>
+            <p class="pc_h1">
               Outcome-centered product that reduce churn,<br />
               optimize pricing, and grow your subscription<br />
+              business end-to-end.
+            </p>
+            <p class="ipad_h1">
+              Outcome-centered product that reduce churn,
+              optimize pricing, and grow your subscription
               business end-to-end.
             </p>
             <button class="primary_btn">Get Started</button>
           </div>
           <div class="banner_img_wrapper">
-            <img src="./src/img/Group 36.png" alt="" />
+            <img src="img/Group 36.png" alt="" />
           </div>
         </div>
       </div>
@@ -54,19 +67,19 @@
       <div class="container">
         <div class="row clients">
           <div>
-            <img src="./src/img/binator logo.svg" alt="" />
+            <img src="img/binator logo.svg" alt="" />
           </div>
           <div>
-            <img src="./src/img/buyme logo.svg" alt="" />
+            <img src="img/buyme logo.svg" alt="" />
           </div>
           <div>
-            <img src="./src/img/loogipsum logo.svg" alt="" />
+            <img src="img/loogipsum logo.svg" alt="" />
           </div>
           <div>
-            <img src="./src/img/square logo.svg" alt="" />
+            <img src="img/square logo.svg" alt="" />
           </div>
           <div>
-            <img src="./src/img/umbrella logo.svg" alt="" />
+            <img src="img/umbrella logo.svg" alt="" />
           </div>
         </div>
       </div>
@@ -74,10 +87,10 @@
     <section class="mt-76">
       <div class="container">
         <div class="row space-between">
-          <div class="banner_img_wrapper">
-            <img src="./src/img/Section Image.png" alt="" />
+          <div class="banner_img_wrapper pc_h1">
+            <img src="img/Section Image.png" alt="" />
           </div>
-          <div class="banner_content_wrapper">
+          <div class="banner_content_wrapper pc_h1">
             <h1>
               Detailed<br />
               Examination
@@ -88,13 +101,26 @@
             </p>
             <button class="learn-more">Learn More</button>
           </div>
+          <div class="banner_content_wrapper ipad_h1 row space-between">
+            <h1>
+              Detailed Examination
+            </h1>
+            <p>
+              A daily dataset to keep you up to date on subscription
+              market trends and what's happening in your vertical.
+            </p>
+            <button class="learn-more">Learn More</button>
+          </div>
+          <div class="banner_img_wrapper ipad_h1">
+            <img src="img/Section Image.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
     <section class="mt-76">
       <div class="container">
         <h2 class="third">Choose your plan</h2>
-        <div class="row cards clients">
+        <div class="row clients">
           <div class="oddcard">
             <h5>starter</h5>
             <h2>free</h2>
@@ -129,22 +155,21 @@
       </div>
     </section>
     <section class="mt-76">
-      <div class="container">
         <div class="last_section row clients">
-          <div>
+          <center>
             <h3>Interested in getting fusely?</h3>
-          </div>
+          </center>
           <div>
             <button class="primary_btn">Let's talk</button>
           </div>
-        </div>
       </div>
     </section>
 
     <section class="mt-76">
       <div class="wide">
         <footer class="bot_nav">
-          <div class="row clients">
+          <div class="container">
+          <div class="row clients nah">
             <div>
               <p>Product</p>
               <ul class="card bottom_card">
@@ -175,10 +200,10 @@
             <div>
               <p>Get in touch</p>
               <ul class="card bottom_card">
-                <div class="row links">
-                  <img src="./src/img/facebook.svg" alt="" />
-                  <img src="./src/img/twitter.svg" alt="" />
-                  <img src="./src/img/linkedin.svg" alt="" />
+                <div class="row_cards links">
+                  <img src="img/facebook.svg" alt="" />
+                  <img src="img/twitter.svg" alt="" />
+                  <img src="img/linkedin.svg" alt="" />
                 </div>
               </ul>
             </div>
@@ -186,14 +211,14 @@
 
           <div class="row space-between align-center last_row">
             <div>
-              <img src="./src/img/Logo.svg" />
+              <img src="img/Logo.svg" />
             </div>
            
             <div class="btn_container copyright">
               <copyright>© Fusely 2021. All rights reserved.</copyright>
             </div>
           </div>
-
+        </div>
         </footer>
       </div>
     </section>
